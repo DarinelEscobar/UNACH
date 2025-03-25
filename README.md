@@ -1,8 +1,122 @@
-# React + Vite
+# README - Frontend UNACH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Proyecto: Módulo de Investigación y Posgrado (UNACH)
+Este repositorio contiene el frontend de la aplicación web del módulo de investigación y posgrado de la Universidad Autónoma de Chiapas (UNACH). Se ha desarrollado utilizando **React + Vite** con **Tailwind CSS** para la estilización.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías utilizadas
+- **React 18.2.0** (Biblioteca para la construcción de interfaces de usuario)
+- **Vite** (Entorno de desarrollo rápido para React)
+- **Tailwind CSS** (Framework de CSS para diseño responsivo y optimizado)
+- **React Router DOM 6.15.0** (Para la navegación en la aplicación)
+- **React Modal 3.16.1** (Manejo de modales en la UI)
+- **Styled Components 6.0.7** (Estilización basada en componentes)
+- **@react-pdf/renderer 3.1.14** (Generación de PDFs desde React)
+
+---
+
+## 📂 Estructura del Proyecto
+
+```bash
+UNACH-1/src
+│   main.jsx
+│
+├── assets
+│   ├── css
+│   │   ├── botoncito.css
+│   │   ├── index.css
+│   │   ├── inputTable.css
+│   │   ├── modal.css
+│   │   └── seccionVertical.css
+│   ├── img/Icon
+│   │   ├── arrow.png
+│   │   ├── logo.svg
+│   │   ├── UNACH-logo.png
+│   │   └── printer.png
+│
+├── components
+│   ├── atoms (Componentes más pequeños, como botones e íconos)
+│   ├── molecules (Componentes compuestos por átomos, como tarjetas y formularios)
+│   ├── organism (Componentes más grandes como secciones enteras de la app)
+│
+├── containers
+│   ├── App.jsx (Punto de entrada principal de la aplicación)
+│   ├── ProtectRoute.jsx (Protección de rutas en la aplicación)
+│
+├── contexts
+│   ├── SharedDataContext.js (Contexto global para compartir datos entre componentes)
+│   ├── UserContext.js (Manejo de usuario y sesión en la aplicación)
+│
+├── pages
+│   ├── Committe.jsx (Vista para el comité evaluador)
+│   ├── Direccion.jsx (Vista para la dirección académica)
+│   ├── Evaluator.jsx (Vista para los evaluadores de proyectos)
+│   ├── Home.jsx (Pantalla principal de la aplicación)
+│   ├── Pending.jsx (Vista de proyectos pendientes)
+│   ├── PreviewPDF.jsx (Vista previa de documentos en PDF)
+│   ├── Review.jsx (Vista para la revisión de propuestas)
+│   ├── Sections.jsx (Secciones detalladas de cada proyecto)
+│
+├── utils
+│   ├── storage.js (Manejo de almacenamiento en el navegador)
+│
+└── webComponents
+    ├── button.js
+    ├── input.js
+    ├── SectionTitleHeader.js
+    └── textArea.js
+```
+
+---
+
+## ⚡ Instalación y Configuración
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone  https://github.com/DarinelEscobar/UNACH.git
+cd UNACH
+```
+
+### 2️⃣ Instalar dependencias
+```bash
+npm install
+```
+
+### 3️⃣ Iniciar el servidor de desarrollo
+```bash
+npm run dev
+```
+
+---
+
+## 📌 Descripción del Proyecto
+Este proyecto tiene como finalidad automatizar el proceso de llenado de formularios de los proyectos propuestos por estudiantes de la UNACH. Facilita la revisión y evaluación de las propuestas por parte del comité académico y los evaluadores.
+
+El **frontend** se encarga de ofrecer una interfaz accesible y eficiente para los usuarios involucrados, proporcionando una experiencia fluida y organizada mediante el uso de React, Tailwind CSS y otras herramientas modernas.
+
+---
+
+## 🚀 Funcionalidades Clave
+✔️ Registro y autenticación de usuarios
+✔️ Creación y edición de proyectos de investigación
+✔️ Evaluación de proyectos por parte del comité y evaluadores
+✔️ Generación de reportes en formato PDF
+✔️ Panel de administración para la gestión de propuestas
+✔️ Sistema de roles (Estudiantes, Evaluadores, Comité, Dirección)
+✔️ Notificaciones en tiempo real
+✔️ Exportación e impresión de documentos
+
+---
+
+## 📄 Documentación Relacionada
+Este proyecto está documentado en los siguientes reportes:
+- **STD - Proyecto Estancia - 221192**: Información detallada sobre la participación en el desarrollo del frontend, desafíos técnicos y soluciones aplicadas.
+- **Reporte Final de Estadía**: Explicación del impacto del módulo de investigación en la UNACH, logros alcanzados y perspectivas futuras.
+
+---
+## 📩 Contacto
+Si tienes preguntas o sugerencias sobre el proyecto, no dudes en contactarnos:
+✉️ Email: alzunun@upchiapas.edu.mx
+🔗 Sitio web: [www.upchiapas.edu.mx](http://www.upchiapas.edu.mx)
+
