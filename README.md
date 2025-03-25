@@ -108,11 +108,16 @@ El **frontend** se encarga de ofrecer una interfaz accesible y eficiente para lo
 ✔️ Exportación e impresión de documentos
 
 ---
+📄 Documentación Relacionada
 
-## 📄 Documentación Relacionada
 Este proyecto está documentado en los siguientes reportes:
-- **STD - Proyecto Estancia - 221192**: Información detallada sobre la participación en el desarrollo del frontend, desafíos técnicos y soluciones aplicadas.
-- **Reporte Final de Estadía**: Explicación del impacto del módulo de investigación en la UNACH, logros alcanzados y perspectivas futuras.
+
+STD - Proyecto Estancia: Información detallada sobre la participación en el desarrollo del frontend, desafíos técnicos y soluciones aplicadas.
+https://drive.google.com/file/d/1Alk7_GqG0IzahUECPSxkGu_6Y5rSX9Ev/view?usp=sharing
+Reporte Final de Estadía: Explicación del impacto del módulo de investigación en la UNACH, logros alcanzados y perspectivas futuras.
+https://drive.google.com/file/d/1H8BL0oBYRAFaOu1w4U8x8cypHA7sg5uD/view?usp=sharing
+
+⚠ Importante: Los enlaces proporcionados pueden expirar en cualquier momento. No me hago responsable de la validez o disponibilidad de estos documentos en el futuro. No contactar para solicitar estos archivos en caso de que los enlaces ya no estén activos.
 
 ---
 ## 📩 Contacto
